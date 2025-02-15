@@ -2,7 +2,7 @@ print("Bot is running...")
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
 
-TOKEN = "توکن_ربات_تلگرام_اینجا"
+TOKEN = "7600292732:AAF3Uwu9Rri3vVlCeXZn93y1rAlhCaGwhsM"
 
 async def start(update: Update, context: CallbackContext):
     await update.message.reply_text("سلام! من یه بات یادآوری هستم. از /set برای تنظیم یادآوری استفاده کن.")
